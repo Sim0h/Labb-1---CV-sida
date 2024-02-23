@@ -256,7 +256,7 @@ header h1{
 .project {
     margin: 20px;
     text-align: left;
-    position: relative; /* Lägg till relativ position för att placera knappen */
+    position: relative; 
 }
 
 .project img {
@@ -271,10 +271,10 @@ header h1{
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    position: absolute; /* Gör positionen absolut för att placera den under bilden */
-    bottom: 10px; /* Justera bottenmarginalen */
-    left: 8%; /* Centrera knappen horisontellt */
-    transform: translateY(5%); /* Centrera knappen horisontellt */
+    position: absolute; 
+    bottom: 10px; 
+    left: 8%; 
+    transform: translateY(5%); 
 }
 
 .info-btn:hover {
@@ -303,8 +303,8 @@ header h1{
     background-color: #fefefe;
     padding: 20px;
     border: 1px solid #888;
-    width: 60%; /* Anpassa bredden efter behov */
-    max-width: 600px; /* Maximal bredd för att undvika alltför breda modaler */
+    width: 60%; 
+    max-width: 600px; 
 }
 
 .close-btn {
@@ -352,7 +352,7 @@ header h1{
 }
 
 @media screen and (max-width: 768px) {
-    /* Stilar för mindre skärmar (mobil) */
+    
     .overlay {
         width: 90%;
         max-width: none;
